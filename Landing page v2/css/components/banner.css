@@ -1,0 +1,43 @@
+.banner{
+ 	background-image: linear-gradient(-225deg,rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2)50%), url(../../img/background_img4.jpg);
+ 	padding: 50px 0px;
+ 	background-size: cover;
+ 	background-position: center;
+
+}
+
+
+
+.banner h1{
+	font-size: 70px;
+	color: white;
+	font-weight: bolder;
+
+}
+
+.banner h2{
+	font-size: 50px;
+	color: white;
+	font-weight: lighter;
+}
+
+	
+
+
+
+
+
+
+
+
+@media (min-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner {
+    height: 500px;
+  }
+
+@media (min-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner {
+    height: 700px;
+  }
